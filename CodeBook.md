@@ -36,5 +36,5 @@ The `run_analysis.R` script performs the data preparation and then followed by t
       + All start with the character `f` in column's name replaced by `Frequency`
       + All start with the character `t` in column's name replaced by `Time`
   7. **From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject**
-      + `FinalData` (180 rows, 88 columns) is created by summarizing `TidyData` taking the means of each variable for each activity and each ubject, after grouped by subject and activity
+      + `FinalData` (180 rows, 88 columns) is created by summarizing `TidyData` taking the means of each variable for each activity and each subject, after grouped by subject and activity
       + Export `FinalData` into `FinalData.txt` file.
